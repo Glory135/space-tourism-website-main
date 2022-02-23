@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  color: white;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+.Link {
+  height: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+.page-label {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.num {
+  color: #8c91a4;
+  margin-right: 3px;
+}
+
+@media (max-width: 450px) {
+  .main {
+    background-attachment: fixed;
+    height: auto;
+  }
+}
