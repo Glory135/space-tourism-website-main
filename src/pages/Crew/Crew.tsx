@@ -63,7 +63,7 @@ export const Crew = () => {
         </div>
 
         <div className='crew-img'>
-          <img src={crew.images.png.toString()} alt='' />
+          <img src={crew.images.png.toString()} alt='crew image' />
         </div>
       </div>
     </div>

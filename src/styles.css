@@ -12,8 +12,11 @@
   background-size: cover;
 }
 .Link {
-  height: inherit;
+  height: 100%;
+  width: 100%;
   color: inherit;
+  display: inherit;
+  align-items: inherit;
   text-decoration: none;
 }
 .page-label {
@@ -23,6 +26,13 @@
 .num {
   color: #8c91a4;
   margin-right: 3px;
+}
+
+@media (max-width: 800px) {
+  .main {
+    background-attachment: fixed;
+    height: auto;
+  }
 }
 
 @media (max-width: 450px) {

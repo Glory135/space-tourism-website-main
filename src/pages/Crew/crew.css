@@ -62,10 +62,24 @@
   height: 100%;
 }
 
+@media (max-width: 800px) {
+  .crew-container {
+    width: 95%;
+    height: 100%;
+    margin-top: 150px;
+  }
+  .crew-desc > * {
+    margin-bottom: 35px;
+  }
+  .desc-main > * {
+    margin-bottom: 10px;
+  }
+}
+
 @media (max-width: 450px) {
   .crew-container {
     flex-direction: column;
-    width: 100%;
+    width: 95%;
     height: 100%;
     margin-top: 150px;
   }

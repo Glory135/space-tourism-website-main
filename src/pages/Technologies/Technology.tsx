@@ -48,7 +48,7 @@ export const Technology = () => {
           </div>
         </div>
         <div className='tech-img'>
-          <img src={tech.images.portrait.toString()} alt='' />
+          <img src={tech.images.portrait.toString()} alt='technology image' />
         </div>
       </div>
     </div>

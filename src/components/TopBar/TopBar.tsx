@@ -19,45 +19,48 @@ export const TopBar = () => {
         <div className='line'></div>
         <nav className='navbor'>
           <ul>
-            <Link className='Link' to='/'>
-              <li
-                style={{
-                  borderBottom: location === "" ? "3px solid white" : undefined,
-                }}
-              >
-                <span className='nav-num'>00</span> HOME
-              </li>
-            </Link>
-            <Link className='Link' to='/destination'>
-              <li
-                style={{
-                  borderBottom:
-                    location === "destination" ? "3px solid white" : undefined,
-                }}
-              >
+            <li
+              style={{
+                borderBottom: location === "" ? "3px solid white" : undefined,
+              }}
+            >
+              <Link className='Link' to='/'>
+                <span className='nav-num'>00</span> HOME{" "}
+              </Link>
+            </li>
+
+            <li
+              style={{
+                borderBottom:
+                  location === "destination" ? "3px solid white" : undefined,
+              }}
+            >
+              <Link className='Link' to='/destination'>
                 <span className='nav-num'>01</span> DESTINATION
-              </li>
-            </Link>
-            <Link className='Link' to='/crew'>
-              <li
-                style={{
-                  borderBottom:
-                    location === "crew" ? "3px solid white" : undefined,
-                }}
-              >
+              </Link>
+            </li>
+
+            <li
+              style={{
+                borderBottom:
+                  location === "crew" ? "3px solid white" : undefined,
+              }}
+            >
+              <Link className='Link' to='/crew'>
                 <span className='nav-num'>02</span> CREW
-              </li>
-            </Link>
-            <Link className='Link' to='/technology'>
-              <li
-                style={{
-                  borderBottom:
-                    location === "technology" ? "3px solid white" : undefined,
-                }}
-              >
+              </Link>
+            </li>
+
+            <li
+              style={{
+                borderBottom:
+                  location === "technology" ? "3px solid white" : undefined,
+              }}
+            >
+              <Link className='Link' to='/technology'>
                 <span className='nav-num'>03</span> TECHNOLOGY
-              </li>
-            </Link>
+              </Link>
+            </li>
           </ul>
         </nav>
         <div className='bars-containe'>
@@ -73,45 +76,48 @@ export const TopBar = () => {
         className='media_navbar'
       >
         <ul>
-          <Link className='Link' to='/'>
-            <li
-              style={{
-                borderBottom: location === "" ? "3px solid white" : undefined,
-              }}
-            >
-              <span className='nav-num'>00</span> HOME
-            </li>
-          </Link>
-          <Link className='Link' to='/destination'>
-            <li
-              style={{
-                borderBottom:
-                  location === "destination" ? "3px solid white" : undefined,
-              }}
-            >
+          <li
+            style={{
+              borderBottom: location === "" ? "3px solid white" : undefined,
+            }}
+          >
+            {" "}
+            <Link className='Link' to='/'>
+              <span className='nav-num'>00</span> HOME{" "}
+            </Link>
+          </li>
+
+          <li
+            style={{
+              borderBottom:
+                location === "destination" ? "3px solid white" : undefined,
+            }}
+          >
+            <Link className='Link' to='/destination'>
               <span className='nav-num'>01</span> DESTINATION
-            </li>
-          </Link>
-          <Link className='Link' to='/crew'>
-            <li
-              style={{
-                borderBottom:
-                  location === "crew" ? "3px solid white" : undefined,
-              }}
-            >
+            </Link>{" "}
+          </li>
+
+          <li
+            style={{
+              borderBottom: location === "crew" ? "3px solid white" : undefined,
+            }}
+          >
+            <Link className='Link' to='/crew'>
               <span className='nav-num'>02</span> CREW
-            </li>
-          </Link>
-          <Link className='Link' to='/technology'>
-            <li
-              style={{
-                borderBottom:
-                  location === "technology" ? "3px solid white" : undefined,
-              }}
-            >
+            </Link>{" "}
+          </li>
+
+          <li
+            style={{
+              borderBottom:
+                location === "technology" ? "3px solid white" : undefined,
+            }}
+          >
+            <Link className='Link' to='/technology'>
               <span className='nav-num'>03</span> TECHNOLOGY
-            </li>
-          </Link>
+            </Link>{" "}
+          </li>
         </ul>
       </nav>
     </>

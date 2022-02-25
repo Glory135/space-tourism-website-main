@@ -15,7 +15,7 @@ export const Home = () => {
           </div>
         </div>
         <div className='home-second'>
-          <Link className='Link' to='/destination'>
+          <Link className='home_link' to='/destination'>
             <div className='home-second-container'>
               <div className='home-second-text'>Explore</div>
             </div>

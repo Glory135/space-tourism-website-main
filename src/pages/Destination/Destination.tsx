@@ -29,7 +29,7 @@ export const Destination = () => {
           <img
             className='planet_img'
             src={planet.images.png.toString()}
-            alt=''
+            alt='planet image'
           />
         </div>
         <div className='destination-second'>
